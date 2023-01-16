@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+}
+
+input {
+    padding: 6px 4px;
+    margin: 2px;
+    border-color: transparent;
+    border-radius: 5px;
+    background: #F0F0F0;
+    color: #0F0F0F;
+}
+
+button {
+    padding: 6px 14px;
+    border-radius: 5px;
+    border-color: transparent;
+    text-transform: uppercase;
+}
+
+#form-matrix {
+    transition: opacity 200ms;
+}
+
+#form-matrix button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form-matrix section {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+}
+
+#form-matrix input {
+    width: 20px;
+}
+
+.matrix {
+    padding: 5px;
+    border: 2px #0F0F0F solid;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 10px;
+}
+
+.print div {
+    margin: 15px 10px;
+}
+
+#result {
+    display: flex;
+    gap: 20px;
+}
